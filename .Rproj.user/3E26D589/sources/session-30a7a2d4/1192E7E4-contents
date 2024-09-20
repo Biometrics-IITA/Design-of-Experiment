@@ -319,9 +319,10 @@ Example: For 45 unreplicated lines, with 3 checks and 9 blocks. The number of pl
 
 **With augmented design one can estimate the following:**
 
-```         
-a) Differences between checks and new treatments,  b) Differences among new treatments,  c) Differences among check treatments, and  d) Differences among new and check treatments combined.
-```
+a)  Differences between checks and new treatments,
+b)  Differences among new treatments,
+c)  Differences among check treatments, and
+d)  Differences among new and check treatments combined.
 
 The layout for augmented design is as shown below
 
@@ -330,11 +331,10 @@ The layout for augmented design is as shown below
 Simplest case is the Augmented Randomized Complete Block Design (ARCB), with
 
 -   Checks occurring once in every block
+
 -   New or test treatment occurs once in the treatment
 
-![](images/Augmented2.png)
-
--   Plant breeding used cases includes when there is:
+    Plant breeding used cases includes when there is:
 
     -   Limited seeds – test treatments
 

@@ -543,17 +543,19 @@ Efficiency factor
 <p>An augmented design is any standard design in control treatments augmented with additional (new or test) treatments in complete or incomplete blocks in one-way heterogeneity setting. A survey of the literature reveals that generally these experiments are conducted using an augmented randomized complete block design. In an <strong>augmented RCB design</strong>, the basic design plan is to divide the experimental area into several blocks. A few check varieties are replicated in each block, while test genotypes are assigned to the remaining plots in each block. The test genotypes are not replicated but are assigned at random throughout the blocks</p>
 <p>Example: For 45 unreplicated lines, with 3 checks and 9 blocks. The number of plots will be: (45+3*9) = 72 plots</p>
 <p><strong>With augmented design one can estimate the following:</strong></p>
-<pre><code>a) Differences between checks and new treatments,  b) Differences among new treatments,  c) Differences among check treatments, and  d) Differences among new and check treatments combined.</code></pre>
+<ol type="a">
+<li>Differences between checks and new treatments,</li>
+<li>Differences among new treatments,</li>
+<li>Differences among check treatments, and</li>
+<li>Differences among new and check treatments combined.</li>
+</ol>
 <p>The layout for augmented design is as shown below</p>
 <p><img src="images/augmented1.png" class="img-fluid" style="width:40.0%"></p>
 <p>Simplest case is the Augmented Randomized Complete Block Design (ARCB), with</p>
 <ul>
-<li>Checks occurring once in every block</li>
-<li>New or test treatment occurs once in the treatment</li>
-</ul>
-<p><img src="images/Augmented2.png" class="img-fluid"></p>
-<ul>
-<li><p>Plant breeding used cases includes when there is:</p>
+<li><p>Checks occurring once in every block</p></li>
+<li><p>New or test treatment occurs once in the treatment</p>
+<p>Plant breeding used cases includes when there is:</p>
 <ul>
 <li><p>Limited seeds – test treatments</p></li>
 <li><p>Land &amp; other resources are limited</p></li>
@@ -572,7 +574,7 @@ Efficiency factor
 <h2 class="anchored" data-anchor-id="example-3"><span style="color: #002D62;">Example</span></h2>
 <p>The basic R syntax to achieve this is:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># design.dau(trt1, trt2, r, serie = 2, seed = 0, kinds = "Super-Duper", name="trt",randomization=TRUE)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># design.dau(trt1, trt2, r, serie = 2, seed = 0, kinds = "Super-Duper", name="trt",randomization=TRUE)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>Arguments</strong></p>
 <ul>
